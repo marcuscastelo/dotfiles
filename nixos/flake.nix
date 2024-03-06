@@ -10,8 +10,7 @@
       lib = nixpkgs.lib;
     in {
       nixosConfigurations = {
-        # TODO: change to nixos-marucs after reboot
-        nixos = lib.nixosSystem {
+        nixos-marucs = lib.nixosSystem {
           system = "x86_64-linux";
           modules = [ ./configuration.nix ];
         };

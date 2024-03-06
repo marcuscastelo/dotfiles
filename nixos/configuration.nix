@@ -184,12 +184,6 @@
     # ];
   };
 
-  programs.git = {
-    enable = true;
-    userName = "marcuscastelo";
-    userEmail = "viniciuscastelo6@gmail.com";
-  };
-
   # Some programs need SUID wrappers, can be configured further or are
   # started in user sessions.
   # programs.mtr.enable = true;
